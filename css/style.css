@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+body{
+    font-family: 'Itim';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(184, 113, 219);
+}
+.logo{
+    text-align: center;
+    margin: 0;
+}
+.hero{
+    text-align: center;
+    background: rgb(50,1,103);
+    background: linear-gradient(90deg, rgba(50,1,103,1) 0%, rgba(143,46,203,1) 41%, rgba(255,0,232,1) 100%); 
+    padding: 2rem;
+}
+img{
+    max-width: 100%;
+}
+.hero h3{
+    margin-top: 1rem;
+}
+.btn{
+    background-color: #fa6cd6; /* Pink */
+    border: none;
+    color: rgb(2, 1, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.card{
+    padding: 1.6rem;
+}
+ul{
+    margin-bottom: 2rem;
+}
+footer{
+color: aliceblue;
+background-color: blueviolet;
+text-align: center;
+padding: 1rem 1.6rem;
+margin-top: 2rem;
+}
+
+/*style ipad*/
+@media only screen and (min-width: 768px) {
+   .hero img{
+       max-width: 300px;
+   }
+    }
+  }
